@@ -1,0 +1,22 @@
+.div-one{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width: 520px) and (max-width:600px){
+    body{
+        background-color: purple;
+    }
+}
